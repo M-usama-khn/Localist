@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BROWSE</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/testimonial.css">
+</head>
+
+<body>
+  <header id="header">
+    <div id="header__container">
+      <nav class="navbar navbar-expand-lg text-center pt-4">
+        <div class="container-fluid">
+          <a class="navbar-brand col-lg-2 col-sm-6 nav__logo" href="index.html">
+            <img src="assets/images/localist-dark-logo.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="search col-lg-7 col-sm-12">
+              <i class="fa fa-search btn"></i>
+              <input type="text" class="form-control" placeholder="Used books">
+            </div>
+            <div class="navbar-nav col-lg-5 col-sm-6 nav__links">
+              <a class="navbar-brand active" aria-current="page" href="faq.html">FAQ</a>
+              <a class="navbar-brand " href="javascript:void(0)">
+                <img src="assets/images/navbar/notifications.png" alt="notifications">
+              </a>
+              <a class="navbar-brand" href="javascript:void(0)">
+                <img src="assets/images/navbar/favorite.png" alt="favorite">
+              </a>
+              <a class="navbar-brand" href="javascript:void(0)">
+                <img src="assets/images/navbar/account_circle.png" alt="account_circle">
+              </a>
+              <a name="btn__shop" id="btn__shop" class="btn d-flex justify-content-between btn__primary"
+                href="javascript:void(0)" role="button">
+                <img src="assets/images/navbar/shopping_basket.png" alt="account_circle"
+                  class="d-inline-block align-text-top me-2">
+                Basket</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero Section -->
+      <section id="hero" class="container-fluid">
+        <div class="container  p-4">
+          <div class="row">
+            <div class="col-lg-8 col-sm-12 mt-5">
+              <h3 class="section__title--sub">how it works</h3>
+              <h1 class="display-5 section__title mt-4">Harnessing Ai for good</h1>
+              <div class="mt-4">
+                <a name="" id="" class="btn btn__primary py-2 px-4" href="javascript:void(0)" role="button">GET
+                  STARTED</a>
+                <a name="" id="" class="btn btn__secondary py-2 px-4 mx-lg-3 my-3" href="javascript:void(0)"
+                  role="button">DOWNLOAD
+                  THE
+                  PLUGIN</a>
+              </div>
+              <div class="mt-4 d-flex align-items-center">
+                <img src="assets/images/hero/hero-white-checkmark-circles.png" alt="checkmark">
+                <p class="mx-2 section__content">Let Ai work for you</p>
+              </div>
+              <div class="mt-3 d-flex align-items-start">
+                <img src="assets/images/hero/hero-white-checkmark-circles.png" alt="checkmark">
+                <p class="mx-2 section__content">Choose from the best local vendors</p>
+              </div>
+              <img class="mt-4" src="assets//images/hero/3d-map-pin.png" alt="map">
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </header>
+  <main>
+
+    <section id="tabs-sec" class=" container-fluid">
+      <nav>
+        <div class="nav nav-tabs container" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="nav-Clothing-tab" data-bs-toggle="tab" data-bs-target="#nav-Clothing"
+            type="button" role="tab" aria-controls="nav-Clothing" aria-selected="true">Clothing & Shoes</button>
+
+          <button class="nav-link" id="nav-Living-tab" data-bs-toggle="tab" data-bs-target="#nav-Living" type="button"
+            role="tab" aria-controls="nav-profile" aria-selected="false">Home & Living</button>
+
+          <button class="nav-link" id="nav-Home-tab" data-bs-toggle="tab" data-bs-target="#nav-Home" type="button"
+            role="tab" aria-controls="nav-Home" aria-selected="false">Home & Living</button>
+
+          <button class="nav-link" id="nav-Toys-tab" data-bs-toggle="tab" data-bs-target="#nav-Toys" type="button"
+            role="tab" aria-controls="nav-Toys" aria-selected="false">Toys & Entertainment</button>
+
+          <button class="nav-link" id="nav-Art-tab" data-bs-toggle="tab" data-bs-target="#nav-Art" type="button"
+            role="tab" aria-controls="nav-Art" aria-selected="false">Art & collecibles</button>
+
+          <button class="nav-link" id="nav-Tecnology-tab" data-bs-toggle="tab" data-bs-target="#nav-Tecnology"
+            type="button" role="tab" aria-controls="nav-Tecnology" aria-selected="false">Tecnology</button>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <!--         tabs -->
+          <div class="col-12"></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="browse-sidebar">
+              <h2 class="sidebar-heading">Local Used Books</h2>
+              <ul>
+                <li>Category
+                  <ul>
+                    <li>Sub categorie</li>
+                    <li>Sub categorie</li>
+                    <li>Sub categorie</li>
+                    <li>Sub categorie</li>
+                    <li>Sub categorie</li>
+                  </ul>
+                <li>Distance from me
+                  <ul>
+                    <li>North Vanocuver</li>
+                    <li>Vancouver</li>
+                    <li>Greater Vancouver District</li>
+                  </ul>
+                <li>Special offers</li>
+                <li>Dispatch time</li>
+                <li>Price ($)</li>
+                </li>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-Clothing" role="tabpanel"
+                aria-labelledby="nav-Clothing-tab">
+                <div class="tab-top-cont">
+                  <div class="result-heading">
+                    <h2>Top local results</h2>
+                  </div>
+                  <div class="map-para">
+                    <p>View Map Results</p>
+                    <img src="/assets/images/location_on-24px.svg" alt="">
+                  </div>
+                </div>
+                <div class="browse-cards justify-content-xl-between">
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-Living" role="tabpanel" aria-labelledby="nav-Living-tab">
+                <div class="tab-top-cont">
+                  <div class="result-heading">
+                    <h2>Home & Living</h2>
+                  </div>
+                  <div class="map-para">
+                    <p>View Map Results</p>
+                    <img src="/assets/images/location_on-24px.svg" alt="">
+                  </div>
+                </div>
+                <div class="browse-cards">
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-Home" role="tabpanel" aria-labelledby="nav-Home-tab">
+                <div class="tab-top-cont">
+                  <div class="result-heading">
+                    <h2>Clothing & Shoes</h2>
+                  </div>
+                  <div class="map-para">
+                    <p>View Map Results</p>
+                    <img src="/assets/images/location_on-24px.svg" alt="">
+                  </div>
+                </div>
+                <div class="browse-cards">
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-Toys" role="tabpanel" aria-labelledby="nav-Toys-tab">
+                <div class="tab-top-cont">
+                  <div class="result-heading">
+                    <h2>Toys & Entertainment</h2>
+                  </div>
+                  <div class="map-para">
+                    <p>View Map Results</p>
+                    <img src="/assets/images/location_on-24px.svg" alt="">
+                  </div>
+                </div>
+                <div class="browse-cards">
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="nav-Art" role="tabpanel" aria-labelledby="nav-Art-tab">
+                <div class="tab-top-cont">
+                  <div class="result-heading">
+                    <h2>Art & collecibles</h2>
+                  </div>
+                  <div class="map-para">
+                    <p>View Map Results</p>
+                    <img src="/assets/images/location_on-24px.svg" alt="">
+                  </div>
+                </div>
+                <div class="browse-cards">
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="nav-Tecnology" role="tabpanel" aria-labelledby="nav-Tecnology-tab">
+                <div class="tab-top-cont">
+                  <div class="result-heading">
+                    <h2>Tecnology</h2>
+                  </div>
+                  <div class="map-para">
+                    <p>View Map Results</p>
+                    <img src="/assets/images/location_on-24px.svg" alt="">
+                  </div>
+                </div>
+                <div class="browse-cards">
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                  <div class="card-wrapper">
+                    <div class="card-img">
+                      <img src="./assets/images/card-img1.png" alt="book img">
+                    </div>
+                    <div class="card-cont">
+                      <a href="javascript:void(0)" class="card-title d-block">Title</a>
+                      <span class="card-details">Details</span>
+                      <div class="reating">
+                        <div class="stars">
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        </div>
+                        <span>(77,777)</span>
+                      </div>
+                      <span class="price">$ Price</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container-fluid ps-5 pe-5 hero py-2">
+      <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-lg-2 d-flex align-items-center justify-content-center">
+          <a class="navbar-brand nav__logo" href="javascript:void(0)">
+            <img src="assets/images/localist-dark-logo.png" alt="logo">
+          </a>
+        </div>
+        <div class="col-lg-6 d-flex align-items-center justify-content-evenly flex-wrap">
+          <a class="nav-link" href="/localist/about.html">
+            About
+          </a>
+          <a class="navbar-brand footer__logo" href="/">
+            <img src="assets/images/footer/shop-locally_illustration.png" alt="logo">
+          </a>
+          <a class="nav-link" href="/localist/browse.html">
+            Browse
+          </a>
+        </div>
+        <div class="col-lg-2 d-flex align-items-center justify-content-center">
+          <!-- Gmail -->
+          <a class="btn btn-link btn-floating btn-md text-dark " href="javascript:void(0)" role="button"
+            data-mdb-ripple-color="dark"><i class="fa-solid fa-envelope"></i></a>
+          <!-- Twitter -->
+          <a class="btn btn-link btn-floating btn-md text-dark " href="javascript:void(0)" role="button"
+            data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+          <!-- Instagram -->
+          <a class="btn btn-link btn-floating btn-md text-dark " href="javascript:void(0)" role="button"
+            data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+          <!-- Facebook -->
+          <a class="btn btn-link btn-floating btn-md text-dark " href="javascript:void(0)" role="button"
+            data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
